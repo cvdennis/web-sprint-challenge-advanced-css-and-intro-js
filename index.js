@@ -302,11 +302,13 @@ Use lotsOfArt to do the following:
 For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte", ... "Albrecht Dürer"]*/
 
 function lotsOfArt(array) {
-  if (array.paintings >= 100);
+  for (let i = 0; i < array.length; i ++){
+    if (array.paintings >= 100);
+  }
   return array;
-}
+}                                            
 
-//i have no idea why it's returning the whole array AND the names? that doesn't make sense?
+//still no idea why this thing isn't working right.
 
 /* ***** END OF TASKS ***** */
 
